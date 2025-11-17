@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+*.log
+
+# Production
+dist/
+build/
+.next/
+out/
+.turbo/
+
+# Environment variables
+.env
+.env*.local
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Package manager locks (keep package-lock.json, ignore others)
+pnpm-lock.yaml
+yarn.lock
+
+# Vercel
+.vercel
+
+# Prisma
+backend/prisma/migrations/*.sql
+
