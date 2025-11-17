@@ -78,9 +78,3 @@ npm run lint -w frontend
 npm test -w backend   # placeholder (Vitest configured)
 ```
 
-## Deployment Notes
-
-- Recommend Vercel (frontend) and Render/Fly/Heroku (backend) with managed Postgres.
-- Set `UI_ORIGIN` on the backend to the deployed frontend to keep CORS + credentialed requests aligned.
-- Seed admin credentials during deployment via `npm run seed -w backend`.
-

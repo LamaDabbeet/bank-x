@@ -254,33 +254,4 @@ The app uses color-coded toast notifications:
 
 ---
 
-## Troubleshooting
-
-### Can't Log In
-- **Check account status:** Your account must be ACTIVE (not PENDING)
-- **Verify credentials:** Ensure email and password are correct
-- **Contact admin:** If your account is PENDING, ask an admin to activate it
-
-### Transaction Fails
-- **Insufficient funds:** Debit transactions require sufficient balance
-- **Account inactive:** Ensure the account status is ACTIVE
-- **Check logs:** Admins can view error logs in the Logs page
-
-### Theme Not Working
-- **Clear browser cache:** Try clearing your browser's cache
-- **Check browser support:** Ensure your browser supports localStorage
-- **Refresh page:** Sometimes a page refresh resolves theme issues
-
----
-
-## Need Help?
-
-- Check the **README.md** for setup and technical details
-- Review the **system logs** for error messages
-- Ensure both backend and frontend servers are running
-- Verify your database connection is active
-
----
-
-**Happy Banking! 🏦**
 
